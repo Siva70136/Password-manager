@@ -1,0 +1,193 @@
+/* Write your CSS here */
+.app-container {
+  background-image: linear-gradient(#9ba9eb, #9796f0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  margin-top: 48px;
+}
+.logo {
+  width: 100px;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.comment-container {
+  display: flex;
+  flex-direction: column;
+  width: 750px;
+  max-width: 800px;
+
+  padding: 30px;
+}
+
+.box {
+  padding: 7px;
+  margin: 2px;
+  width: 180px;
+  border: none;
+  outline: none;
+  border-width: 0px;
+  border-left: 1px solid #64748b;
+}
+
+.button {
+  background-color: blue;
+  border-width: 0px;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 8px;
+  width: 80px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: white;
+}
+
+.img {
+  width: 300px;
+}
+.line {
+  border: 1px solid #dee0e3;
+  width: 100%;
+  margin-top: 0px;
+}
+
+.comment-items {
+  padding-left: 0;
+  margin-top: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+  margin-left: 8px;
+  text-align: center;
+}
+
+.cap {
+  font-size: 15px;
+  font-weight: 600;
+  color: #b5b7c4;
+}
+
+.head {
+  font-size: 20px;
+  font-weight: 500;
+}
+.star-button {
+  background-color: transparent;
+  border-width: 0px;
+  border-radius: 5px;
+  margin: 5px;
+  width: auto;
+  border: 1px solid #9796f0;
+  outline: none;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.data-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #5763a5;
+  padding: 30px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  order: 1;
+  background-color: #454f84;
+  padding: 10px;
+  width: 270px;
+  color: white;
+  border-radius: 5px;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding-left: 10px;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
+.add-button {
+  display: block;
+  margin-left: auto;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-container {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+  border-radius: 4px;
+  height: 30px;
+}
+.add-container {
+  width: 693px;
+  max-width: 800px;
+  padding: 10px;
+  background-color: #454f84;
+  margin-top: 5px;
+}
+
+.show-password {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: white;
+}
+.swd {
+  font-size: 13px;
+}
+
+.password-items {
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+}
+.your-passwords {
+  display: flex;
+  align-items: center;
+}
+.count {
+  margin-left: 6px;
+  border: 1px solid white;
+  padding: 3px;
+  border-radius: 10px;
+}
+.noPassword-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.no-password {
+  width: 200px;
+}
